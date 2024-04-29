@@ -1,0 +1,143 @@
+.navbar {
+  background-color: #cc88f7;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: greenyellow;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.nav-item .active {
+  background-color: yellowgreen;
+}
+
+.jumbotron {
+  padding: 4rem 0;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#eventsservices {
+  background-color: #cc88f7;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Untuk layar ponsel */
+@media only screen and (max-width: 600px) {
+  .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Untuk layar tablet */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Untuk layar desktop */
+@media only screen and (min-width: 993px) {
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 890px;
+    object-fit: cover;
+  }
+}
+
+/* Aturan Font CSS untuk layar lebar (desktop) */
+@media screen and (min-width: 1200px) {
+  .centertime {
+    font-size: 46px;
+  }
+}
+
+/* Aturan Font CSS untuk layar menengah (tablet) */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .centertime {
+    font-size: 31px;
+  }
+}
+
+/* Aturan Font CSS untuk layar kecil (ponsel) */
+@media screen and (max-width: 767px) {
+  .centertime {
+    font-size: 16px;
+  }
+}
+
+.centertime {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e1306c;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+footer {
+  background-color: #cc88f7;
+}
