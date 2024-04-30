@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #cc88f7;
+  background-color: #84765c;
 }
 
 .nav-link {
@@ -23,7 +23,7 @@
 }
 
 .nav-item .active {
-  background-color: yellowgreen;
+  background-color: #afb0ab;
 }
 
 .jumbotron {
@@ -35,7 +35,7 @@ section {
 }
 
 #eventsservices {
-  background-color: #cc88f7;
+  background-color: #84765c;
 }
 
 .swiper {
@@ -88,14 +88,14 @@ section {
 /* Aturan Font CSS untuk layar menengah (tablet) */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .centertime {
-    font-size: 31px;
+    font-size: 30px;
   }
 }
 
 /* Aturan Font CSS untuk layar kecil (ponsel) */
 @media screen and (max-width: 767px) {
   .centertime {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -139,5 +139,5 @@ section {
 }
 
 footer {
-  background-color: #cc88f7;
+  background-color: #84765c;
 }
